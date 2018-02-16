@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'nowayregular';
+    src: url('noway-regular-webfont.eot');
+    src: url('noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('noway-regular-webfont.woff2') format('woff2'),
+         url('noway-regular-webfont.woff') format('woff'),
+         url('noway-regular-webfont.ttf') format('truetype'),
+         url('noway-regular-webfont.svg#nowayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: nowayregular;
+}
+
+.container {
+	border: 2px solid grey;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px color: white;
+	align-content: center;
+	align-items: center;
+	text-align: center; 
+}
+
+.images{
+	border-radius: 150px; 
+	box-shadow: 1px 1px 2px color: black;
+	border: 1px solid grey; 
+}
+.custom_button{
+  background-color: rgba(84, 91, 98, 0.7) !important;
+  border-color: rgba(84, 91, 98, 0.7) !important;
+}
+.carousel {
+	object-fit: cover;
+	height: 400px;
+}
+
+.titre-carousel {
+	position: absolute;
+	bottom: 30%;
+	margin-right: auto;
+  margin-left: auto;
+	z-index: 20;
+  font-family: 
+  font-size: 130px;
+	color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+  width: 100%;
+}
+
+h1 {
+	font-family:  
+	font-size: 60px;
+}
+.custome-carousel{
+  text-align: center;
+}
+#banner {
+	background: white;
+	box-shadow: 1px 1px 3px white;
+    margin-top: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 13;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.navbar-nav {
+	margin: auto;
+}
+
+#footer {
+	size: 40px;
+	text-align: center;
+	color: black;
+}
+
+.title {
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.title h2 {
+  font-size: 50px;
+  margin: 0;
+  text-shadow: 1 1 25px rgba(0,0,0,.3);
+  text-transform: uppercase;
+}
+
+.title h3 {
+  font-family: 'Katibeh', cursive;
+  font-size: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.8;
+  margin: 15px;
+}
+
+footer {
+  height: 70px;
+  background-color: #999;
+}
+.copyright{
+  width: 50%;
+  padding: 1.5%;
+  color: white;
+}
+.contact-us{
+  width: 20%;
+  padding: 1.5%;
+  font-family: Raleway, sans-serif;
+  background-color: #6dcd9a;
+  text-align: center;
+  color: white;
+}
+.social {
+  width: 50%;
+  float: right;
+  max-width: 600px
+  width: 100%;
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold; 
+  transition-duration: (all, 0.3s);
+  background-color: #222;
+  transition-duration: (all, 0.3s);
+}
+
+.linked {
+  font-family: Raleway, sans-serif; 
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 10%;
+  text-align: center;
+  color: white;
+  padding: 1.5%;
+}
+.face p:hover{
+  color: black;
+}
+.linked p:hover{
+  color: black;
+}
+.tweet p:hover{
+  color: black;
+}
+.contact-us p:hover{
+  color: black;
+}
+.face {
+  font-family: Raleway, sans-serif; 
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 10%;
+  text-align: center;
+  color: white;
+  padding: 1.5%;
+}
+
+.tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 10%;
+  text-align: center;
+  color: white;
+  padding: 1.5%;
+}
+
+.contact {
+  font-family: Raleway, sans-serif;
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 10%;
+}
+
+#ou-aller-kech:hover~#kech-ul-ou-aller{
+  display: block;
+  
+}
+#ou-dormir-kech:hover~#kech-ul-ou-dormir{
+  display: block;
+}
+#ou-manger-kech:hover~#kech-ul-ou-manger{
+  display: block;
+}
+#kech-ul-ou-aller{
+  display: none;
+}
+#kech-ul-ou-dormir{
+  display: none;
+}
+#kech-ul-ou-manger{
+  display: none;
+}
+
+
+#ou-aller-tanger:hover~#tanger-ul-ou-aller{
+  display: block;
+  
+}
+#ou-dormir-tanger:hover~#tanger-ul-ou-dormir{
+  display: block;
+}
+#ou-manger-tanger:hover~#tanger-ul-ou-manger{
+  display: block;
+}
+#tanger-ul-ou-aller{
+  display: none;
+}
+#tanger-ul-ou-dormir{
+  display: none;
+}
+#tanger-ul-ou-manger{
+  display: none;
+}
+
+#ou-aller-chefchaouen:hover~#chefchaouen-ul-ou-aller{
+  display: block;
+  
+}
+#ou-dormir-chefchaouen:hover~#chefchaouen-ul-ou-dormir{
+  display: block;
+}
+#ou-manger-chefchaouen:hover~#chefchaouen-ul-ou-manger{
+  display: block;
+}
+#chefchaouen-ul-ou-aller{
+  display: none;
+}
+#chefchaouen-ul-ou-dormir{
+  display: none;
+}
+#chefchaouen-ul-ou-manger{
+  display: none;
+}
+
+
+#ou-aller-dakhla:hover~#dakhla-ul-ou-aller{
+  display: block;
+  
+}
+#ou-dormir-dakhla:hover~#dakhla-ul-ou-dormir{
+  display: block;
+}
+#ou-manger-dakhla:hover~#dakhla-ul-ou-manger{
+  display: block;
+}
+#dakhla-ul-ou-aller{
+  display: none;
+}
+#dakhla-ul-ou-dormir{
+  display: none;
+}
+#dakhla-ul-ou-manger{
+  display: none;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
